@@ -87,7 +87,7 @@ const Products = () => {
     const message = encodeURIComponent(
       `Hi! I'd like to place an order:\n\n${orderText}\n\nPlease confirm availability and delivery details.`
     );
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/9345323237?text=${message}`, '_blank');
   };
 
   return (

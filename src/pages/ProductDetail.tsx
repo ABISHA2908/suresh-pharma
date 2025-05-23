@@ -37,7 +37,7 @@ const ProductDetail = () => {
     const message = encodeURIComponent(
       `Hi! I'd like to order:\n\n• ${product.name} (${product.brand})\n• Quantity: ${quantity}\n• Price: ${product.price} each\n\nPlease confirm availability and delivery details.`
     );
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/9345323237?text=${message}`, '_blank');
   };
 
   const handleEmailInquiry = () => {
