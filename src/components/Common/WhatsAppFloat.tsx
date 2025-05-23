@@ -4,7 +4,7 @@ import React from 'react';
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi! I'm interested in your pharmaceutical products. Can you help me?");
-    const phoneNumber = "919876543210"; // Replace with actual WhatsApp number
+    const phoneNumber = "9345323237"; // Updated phone number
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
